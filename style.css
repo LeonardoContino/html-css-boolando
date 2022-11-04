@@ -11,12 +11,28 @@ header{
     color: white;
     position: fixed;
     z-index: 1;
+    
 }
-main{
-    padding-top: 90px;
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+
 a{
     color: white;
     text-decoration: none;
     padding: 5px;
+}
+.logo{
+    height: 50px;
+}
+.icons{
+    width: 100px;
+    color: white;
+}
+
+
+main{
+    padding-top: 90px;
 }
