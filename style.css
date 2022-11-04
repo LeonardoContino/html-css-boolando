@@ -17,6 +17,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 a{
@@ -25,7 +26,10 @@ a{
     padding: 5px;
 }
 .logo{
-    height: 50px;
+    height: 30px;
+    
+
+
 }
 .icons{
     width: 100px;
@@ -35,6 +39,34 @@ a{
 
 main{
     padding-top: 90px;
-    width: 900px;
+    width: 1200px;
     margin: auto;
+    gap: 15px;
+}
+.cards{
+    position: relative;
+    width: 33%;
+    height: 600px;
+    
+    display: inline-block;
+    margin-top: 50px;
+
+}
+.cards img{
+    
+    width: 100%;
+    height: 100%;
+    
+}
+.heart{
+    color: black;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    position: absolute;
+    background-color: white;
+    right: 0px;
+    top: 10px;
+    
+
 }
