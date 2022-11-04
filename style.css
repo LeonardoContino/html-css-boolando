@@ -53,6 +53,7 @@ main{
     margin-top: 50px;
     cursor: pointer;
     gap: 10px;
+    margin-bottom:  50px;
 
 }
 
@@ -76,9 +77,9 @@ main{
 
 .heart{
     color: black;
-    height: 30px;
-    width: 30px;
-    padding-top: 2px;
+    height: 40px;
+    width: 40px;
+    padding-top: 10px;
     text-align: center;
     position: absolute;
     background-color: white;
@@ -120,4 +121,34 @@ h5{
 }
 span{
     text-decoration-line: line-through;
+}
+footer{
+    margin-top: 50px;
+}
+
+
+
+
+.nav-bottom{
+    height: 100%;
+    background-color: black;
+    width: 100%;
+    padding: 30px 80px;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.left-footer{
+    width: 50%;
+}
+.srl{
+    padding: 10px;
+}
+.icons{
+    padding-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
 }
