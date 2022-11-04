@@ -49,9 +49,9 @@ main{
     position: relative;
     width: 33%;
     height: 600px;
-    
     display: inline-block;
     margin-top: 50px;
+    cursor: pointer;
 
 }
 .cards img{
@@ -59,7 +59,19 @@ main{
     width: 100%;
     height: 100%;
     
+    
 }
+.img .after-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    
+}
+.img:hover .after-img{
+    display: inline;
+}
+
 .heart{
     color: black;
     height: 30px;
