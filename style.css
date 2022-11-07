@@ -76,6 +76,9 @@ main{
     background-color: white;
     padding: 10px;
 }
+.heart:hover{
+    color: red;
+}
 .sconto{
     position: absolute;
     background-color: red;
